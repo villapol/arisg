@@ -1,9 +1,13 @@
 import Link from 'next/link'
 
+export const config = {
+  runtime: 'experimental-edge',
+}
+
 function Page({ data }) {
         return (
             <>
-                <h1>Example page using <code>getServerSideProps</code></h1>
+                <h1>Example  <code>getServerSideProps</code></h1>
                 <h1 style={{textDecoration: 'underline'}}><Link href="/">Go home</Link></h1>
                 
                 <br></br>
